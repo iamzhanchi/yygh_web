@@ -26,7 +26,7 @@ export default {
   //更新医院上线状态
   updateStatus(id,status) {
     return request ({
-      url: `/admin/hosp/hospital/updateHospStatus//${id}/${status}`,
+      url: `/admin/hosp/hospital/updateHospStatus/${id}/${status}`,
       method: 'get'
     })
   },
